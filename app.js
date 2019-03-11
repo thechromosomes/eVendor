@@ -15,7 +15,7 @@ const User = require('./models/user');
 
 
 //enter your mongoDb username and pass key.
-const MONGODB_URI = "*****************************************************************;
+// const MONGODB_URI = "*****************************************************************;
 
 const app = express();
 const store = new MongoDBStore({
