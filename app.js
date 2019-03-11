@@ -13,7 +13,7 @@ const flash = require('connect-flash');
 const errorController = require('./controllers/error');
 const User = require('./models/user');
 
-const MONGODB_URI = process.env.DB_PASS;
+const MONGODB_URI = "mongodb+srv://chromosome:_26stringsand9nums@shop-5fcw4.mongodb.net/test?retryWrites=true";
 
 const app = express();
 const store = new MongoDBStore({
