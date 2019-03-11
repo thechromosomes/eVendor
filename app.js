@@ -13,7 +13,9 @@ const flash = require('connect-flash');
 const errorController = require('./controllers/error');
 const User = require('./models/user');
 
-const MONGODB_URI = "mongodb+srv://chromosome:_26stringsand9nums@shop-5fcw4.mongodb.net/test?retryWrites=true";
+
+//enter your mongoDb username and pass key.
+const MONGODB_URI = "*****************************************************************;
 
 const app = express();
 const store = new MongoDBStore({
