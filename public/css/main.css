@@ -30,7 +30,7 @@ form {
 .image img {
   height: 100%;
   box-shadow: 0 0 13px 7px black;
-  width: 95%;
+  width: auto;
 }
 
 .main-header {
