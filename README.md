@@ -1,2 +1,2 @@
  #eShop
- eVendor live demo https://evendor.herokuapp.com/
+ $ eVendor live demo https://evendor.herokuapp.com/
